@@ -3,7 +3,7 @@
 This is a small Python script that I wrote because I was very annoyed with the
 fact that, at the time of writing, the KDE lockscreen doesn't support shutting
 off the screen automatically after `n` minutes of time have passed in which
-no input (e.g. keyboard / mouse) was detected (like you would expect a
+no input (e.g. keyboard / mouse) was detected (like how you would expect a
 lockscreen to work).
 
 There is a [workaround](https://askubuntu.com/a/351713) that makes the
@@ -43,13 +43,13 @@ To do this, the script will…
 ## How To Use
 
 Clone the repo whereever you want:
-```shell
+```bash
 $ git clone https://github.com/felsenhower/kscreenlocker-auto-screen-off
 ```
 
 Run the script normally if everything works normally.
 Output should look something like this:
-```
+```bash
 $ cd kscreenlocker-auto-screen-off
 $ python3 ./auto-screen-off.py
 Found device IDs [4, 8, 9, 11, 5, 6, 7, 10, 12, 13, 14]
