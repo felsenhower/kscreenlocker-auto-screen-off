@@ -43,13 +43,13 @@ To do this, the script will…
 ## How To Use
 
 Clone the repo whereever you want:
-```shell
+```bash
 $ git clone https://github.com/felsenhower/kscreenlocker-auto-screen-off
 ```
 
 Run the script normally if everything works normally.
 Output should look something like this:
-```
+```bash
 $ cd kscreenlocker-auto-screen-off
 $ python3 ./auto-screen-off.py
 Found device IDs [4, 8, 9, 11, 5, 6, 7, 10, 12, 13, 14]
