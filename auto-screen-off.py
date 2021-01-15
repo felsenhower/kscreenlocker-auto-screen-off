@@ -21,6 +21,9 @@ def check_system() -> bool:
     :return: True if xinput, xset and pgrep can be found
     """
     ret = True
+    if ("XDG_CURRENT_DESKTOP=KDE" not in subprocess.check_output(["env"]).decode("utf-8")):
+        ret = False
+        print("You're not using KDE!")
     for app in ["xinput", "xset", "pgrep"]:
         if (subprocess.run(["which", app], capture_output=True).returncode != 0):
             ret = False
