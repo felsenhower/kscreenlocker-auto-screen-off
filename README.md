@@ -47,7 +47,7 @@ Clone the repo whereever you want:
 $ git clone https://github.com/felsenhower/kscreenlocker-auto-screen-off
 ```
 
-Run the script normally if everything works normally.
+Run the script normally to test if everything works as intended.
 Output should look something like this:
 ```bash
 $ cd kscreenlocker-auto-screen-off
