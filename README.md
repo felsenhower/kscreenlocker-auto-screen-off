@@ -70,3 +70,20 @@ Link the Lock screen to the script. Here is how to do it in KDE Plasma 5.20.4:
 * Activate the checkbox "☑ ⚙️ Run command"
 * Enter `/usr/bin/python3 "/path/to/your/auto-screen-off.py"`
 * Click "✔ OK"
+
+**Alternatively**, just edit your `~/.config/ksmserver.notifyrc` so that it looks like this:
+```ini
+[Event/locked]
+Action=Execute
+Execute=/usr/bin/python3 "/path/to/your/auto-screen-off.py"
+Logfile=
+Sound=
+TTS=
+
+[Event/unlocked]
+Action=
+Execute=
+Logfile=
+Sound=
+TTS=
+```
